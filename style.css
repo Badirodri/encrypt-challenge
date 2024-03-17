@@ -1,1 +1,84 @@
 
+*{
+    background-color: rgb(223, 204, 177);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    line-height: 150%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: rgb(146, 86, 42);
+    margin-top: 90px;
+    text-transform: lowercase
+}
+
+::placeholder{color:  rgb(146, 86, 42);}
+.text-area:focus{
+    outline: none;
+}
+
+.result{
+    background-color: rgb(236, 216, 193);
+    background-image: url(/images/search.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: rgb(146, 86, 42);
+    margin-left: 96px;
+    position: fixed;
+
+}
+
+.result:focus{
+    outline: none;
+}
+
+.button{
+    display: flex;
+    margin-top: 50px;
+}
+
+.btn-encrypt{
+    background-color: rgb(53, 53, 141);
+    border-radius: 24px;
+    border: 1px solid  rgb(53, 53, 141);
+    cursor: pointer;
+    height: 67px;
+    width: 150px;
+
+}
+
+.btn-decrypt{
+    background-color: rgb(173, 173, 192);
+    border-radius: 24px;
+    border: 1px solid  rgb(173, 173, 192);
+    cursor: pointer;
+    height: 67px;
+    width: 150px;
+
+}
+
+.copy{
+    background-color: rgb(53, 53, 141);
+    border-radius: 24px;
+    border: 1px solid  rgb(53, 53, 141);
+    cursor: pointer;
+    height: 67px;
+    width: 150px;
+    position: absolute;
+    margin-top: 402px;
+    margin-left: 108px;
+
+}
+
+.info{
+    font-size: 18px;
+    color: rgb(117, 117, 143);
+}
