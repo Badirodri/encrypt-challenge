@@ -19,17 +19,18 @@
                 <h5 class="info">Please do not use uppercased letters</h5>
             </div>
             <div class="button">
-                <button class="btn-encrypt">Encrypt</button>
-                <button class="btn-decrypt">Decrypt</button>
+                <button class="btn-encrypt" onclick="btnEncrypt()">Encrypt</button>
+                <button class="btn-decrypt" onclick="btnDecrypt()">Decrypt</button>
             </div>
         </section>
         <section>
             <textarea class="result" cols="20" rows="10"></textarea>
             <div>
-                <button class="copy">Copy</button>
+                <button class="copy" onclick="copyToClipboard()">Copy</button>
             </div>
         </section>
     </main>
     </body>
+    <script src="/script.js"></script>
  </body>
  </html>
