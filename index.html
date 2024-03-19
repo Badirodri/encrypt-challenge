@@ -1,36 +1,37 @@
- 
- <!DOCTYPE html>
- <html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Encryptor</title>
-    <link rel="stylesheet" href="style.css">
- </head>
- <body>
-    <header>
-
-    </header>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header></header>
     <body>
-        <main>
+      <main>
         <section>
-            <textarea class="text-area" cols="30" rows="10" placeholder="Please add some text to be encrypted"></textarea>
-            <div>
-                <h5 class="info">Please do not use uppercased letters</h5>
-            </div>
-            <div class="button">
-                <button class="btn-encrypt" onclick="btnEncrypt()">Encrypt</button>
-                <button class="btn-decrypt" onclick="btnDecrypt()">Decrypt</button>
-            </div>
+          <textarea
+            class="text-area"
+            cols="30"
+            rows="10"
+            placeholder="Please add some text to be encrypted"
+          ></textarea>
+          <div>
+            <h5 class="info">Please do not use uppercased letters</h5>
+          </div>
+          <div class="button">
+            <button class="btn-encrypt" onclick="btnEncrypt()">Encrypt</button>
+            <button class="btn-decrypt" onclick="btnDecrypt()">Decrypt</button>
+          </div>
         </section>
         <section>
-            <textarea class="result" cols="20" rows="10"></textarea>
-            <div>
-                <button class="copy" onclick="copyToClipboard()">Copy</button>
-            </div>
+          <textarea class="result" cols="20" rows="10"></textarea>
+          <div>
+            <button class="copy" onclick="copyToClipboard()">Copy</button>
+          </div>
         </section>
-    </main>
+      </main>
+      <script src="/script.js"></script>
     </body>
-    <script src="/script.js"></script>
- </body>
- </html>
+</html>
