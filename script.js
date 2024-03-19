@@ -48,7 +48,6 @@ function decrypt(decryptStr){
 
 function copyToClipboard() {
     var textarea = document.querySelector(".result");
-    
     // Select the text inside the textarea
     textarea.select();
   
